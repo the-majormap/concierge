@@ -1,0 +1,43 @@
+{% extends "layout/base.html" %}
+{% block css_header %}
+    <link rel="stylesheet" href="/static/css/iconfont.css?v=8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/static/css/main.css" type="text/css" />
+{% endblock %}
+{% block js_header %}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/static/js/main.js" type="module"></script>
+{% endblock %}
+
+{% block contents %}
+
+    <header class="title">
+        <h1>서울 대학교 | Concierge</h1>
+    </header>
+    <section class="keyword_wrap search_wrap">
+        <h2>키워드 선택</h2>
+        <div class="keyword_list_wrap search_list_wrap">
+            <div class="keyword_list search_list">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <h3>선택됨</h3>
+        <div class="keyword_choice_list search_choice_list paging_wrap"></div>
+    </section>
+    <section class="subject_wrap search_wrap">
+        <h2>과목 선택</h2>
+        <div class="subject_list_wrap search_list_wrap">
+            <div class="subject_list search_list">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <h3>선택됨</h3>
+        <div class="subject_choice_list search_choice_list paging_wrap"></div>
+    </section>
+    <button type="button" class="submit_button">제출</button>
+
+{% endblock %}

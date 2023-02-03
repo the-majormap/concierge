@@ -1,0 +1,11 @@
+body{font-family: "Pretendard"; background:rgba(9, 19, 25, 0.05);}
+#wrap{padding:0 5%;}
+h1{font-size: 51px; font-weight: 300; text-align: left; color: #ad7b61;}
+ul{list-style: none;}
+div.univercity_name{font-size: 20px;font-weight: 300;text-align: left;color: #898989;}
+h2{font-size: 32px; font-weight: 500; color: #ad7b61; margin-bottom: 10px;}
+h3{font-size: 25px; font-weight: 500;color: #ad7b61;margin-bottom: 10px;}
+button{border:none; background:none; cursor:pointer;}
+
+
+
