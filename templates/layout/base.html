@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>메이저맵 | Concierge</title>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/axios@0.27.0/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/pretendard-subset.css">
+    <link rel="stylesheet" href="/static/css/common.css" />
+    {% block css_header %}
+
+    {% endblock %}
+    {% block js_header %}
+
+    {% endblock %}
+</head>
+ {% if is_main %}
+<body class="main">
+{% else %}
+<body>
+{% endif %}
+    <div id="wrap" >
+        {% block contents %}
+
+        {% endblock %}
+        {% block js_footer %}
+
+        {% endblock %}
+    </div>
+</body>
+
+</html>

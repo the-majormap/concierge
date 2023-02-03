@@ -1,0 +1,92 @@
+section.search_wrap{margin-bottom:60px;}
+section.search_wrap div.search_list_wrap{padding:50px; background-color:#FFF; position: relative;}
+section.search_wrap div.search_list_wrap div.search_list{width:100%; height:400px;background-color:#FFF; margin-bottom: 10px; overflow: hidden;}
+section.search_wrap div.search_list_wrap div.search_list .swiper-wrapper{ }
+
+div.paging_wrap{ display:grid; width:100%; height:100%; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap:40px;}
+div.paging_wrap > div{padding:20px;  border:solid 1px #dfdfdf; background-color:#fff; position:relative;}
+div.paging_wrap > div.on{border: solid 1px #ad7b61;}
+div.paging_wrap > div span.text{font-size: 17px; font-weight: bold; text-align: left; color: #222;}
+div.paging_wrap > div button.close{position:absolute; top: 3px; right: -2px;}
+
+section.search_wrap div.search_choice_list{
+    background-color:#FFF;
+    padding: 40px;
+    width:auto;
+}
+section.search_wrap div.search_choice_list.paging_wrap > div{padding:25px 20px 40px;}
+button.submit_button{}
+
+
+.multi-range {
+  width: 100%;
+  height: 6px;
+  border-radius: 100px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  background-color: #DEE2E6;
+  position: relative;
+  margin-top:5px;
+}
+
+.multi-range input[type="range"] {
+  display: none;
+}
+
+.multi-range .value-range {
+  height: 6px;
+  border-top: solid 2px rgba(255, 255, 255, 0.5);
+  background-color: #008de0;
+
+  position: absolute;
+  top: -1px;
+}
+
+#tuition__value-range {
+  width: 42.5%;
+  left: 2.5%;
+}
+
+#scholarship__value-range {
+  width: 100%;
+  left: 0;
+}
+
+.multi-range .ic-range-picker {
+  width: 14px;
+  height: 14px;
+  background: center/cover no-repeat url('/static/img/ic-range-slider-picker.svg');
+
+  position: absolute;
+  top: -4px;
+  z-index: 1;
+}
+
+
+
+
+.multi-range .lower-picker,
+.multi-range .upper-picker {
+  transform: translate(-50%, 0);
+}
+
+.multi-range .value {
+  width: 20px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  border: solid 1px #D3DCE6;
+  background-color: #FFF;
+
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  color: #0F4C81;
+
+  position: absolute;
+  top: 10px;
+}
+
+.multi-range .lower-value,
+.multi-range .upper-value {
+  transform: translate(-50%, 0);
+}

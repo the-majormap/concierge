@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('/static/css/fonts/icomoon.eot?yjoiot&v=3');
+    src:  url('/static/css/fonts/icomoon.eot?yjoiot#iefix&v=3') format('embedded-opentype'),
+    url('/static/css/fonts/icomoon.ttf?yjoiot&v=3') format('truetype'),
+    url('/static/css/fonts/icomoon.woff?yjoiot&v=3') format('woff'),
+    url('/static/css/fonts/icomoon.svg?yjoiot#icomoon&v=3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-edc"], [class*=" icon-edc"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edc-ic-arrowDown:before {
+    content: "\e900";
+}
+.icon-edc-ic-arrowLeft:before {
+    content: "\e901";
+}
+.icon-edc-ic-arrowRight:before {
+    content: "\e902";
+}
+.icon-edc-ic-arrowUp:before {
+    content: "\e903";
+}
+.icon-edc-ic-caretDown:before {
+    content: "\e904";
+}
+.icon-edc-ic-caretRight:before {
+    content: "\e905";
+}
+.icon-edc-ic-clock:before {
+    content: "\e906";
+}
+.icon-edc-ic-close:before {
+    content: "\e907";
+}
+.icon-edc-ic-comment:before {
+    content: "\e908";
+}
+.icon-edc-ic-complete:before {
+    content: "\e909";
+}
+.icon-edc-ic-delet:before {
+    content: "\e90a";
+}
+.icon-edc-ic-edit:before {
+    content: "\e90b";
+}
+.icon-edc-ic-job:before {
+    content: "\e90c";
+}
+.icon-edc-ic-keyboard:before {
+    content: "\e90d";
+}
+.icon-edc-ic-link:before {
+    content: "\e90e";
+}
+.icon-edc-ic-lock:before {
+    content: "\e90f";
+}
+.icon-edc-ic-mouse:before {
+    content: "\e910";
+}
+.icon-edc-ic-ongoing:before {
+    content: "\e911";
+}
+.icon-edc-ic-openBook:before {
+    content: "\e912";
+}
+.icon-edc-ic-plus:before {
+    content: "\e913";
+}
+.icon-edc-ic-sad:before {
+    content: "\e914";
+}
+.icon-edc-ic-search:before {
+    content: "\e915";
+}
+.icon-edc-ic-smile:before {
+    content: "\e916";
+}
+.icon-edc-ic-subject:before {
+    content: "\e917";
+}
+.icon-edc-ic-tip:before {
+    content: "\e918";
+    color: #ad7b61;
+}
+.icon-edc-nav-afterConsulting:before {
+    content: "\e919";
+}
+.icon-edc-nav-ai:before {
+    content: "\e91a";
+}
+.icon-edc-nav-alert:before {
+    content: "\e91b";
+}
+.icon-edc-nav-awards:before {
+    content: "\e91c";
+}
+.icon-edc-nav-book:before {
+    content: "\e91d";
+}
+.icon-edc-nav-checklist:before {
+    content: "\e91e";
+}
+.icon-edc-nav-club:before {
+    content: "\e91f";
+}
+.icon-edc-nav-clubPlan:before {
+    content: "\e920";
+}
+.icon-edc-nav-coaching:before {
+    content: "\e921";
+}
+.icon-edc-nav-dashboard:before {
+    content: "\e922";
+}
+.icon-edc-nav-grade:before {
+    content: "\e923";
+}
+.icon-edc-nav-hakjong:before {
+    content: "\e924";
+}
+.icon-edc-nav-inputGrade:before {
+    content: "\e925";
+}
+.icon-edc-nav-keyword:before {
+    content: "\e926";
+}
+.icon-edc-nav-lock:before {
+    content: "\e927";
+}
+.icon-edc-nav-logout:before {
+    content: "\e928";
+    color: #ad7b61;
+}
+.icon-edc-nav-menu:before {
+    content: "\e929";
+}
+.icon-edc-nav-message:before {
+    content: "\e92a";
+}
+.icon-edc-nav-myHistory:before {
+    content: "\e92b";
+}
+.icon-edc-nav-pretest01:before {
+    content: "\e92c";
+}
+.icon-edc-nav-pretest02:before {
+    content: "\e92d";
+}
+.icon-edc-nav-qna:before {
+    content: "\e92e";
+}
+.icon-edc-nav-report01:before {
+    content: "\e92f";
+}
+.icon-edc-nav-research:before {
+    content: "\e930";
+}
+.icon-edc-nav-searchJob:before {
+    content: "\e931";
+}
+.icon-edc-nav-searchUniv:before {
+    content: "\e932";
+}
+.icon-edc-nav-subject:before {
+    content: "\e933";
+}
+.icon-edc-nav-swichStudent:before {
+    content: "\e934";
+    color: #ad7b61;
+}
+.icon-edc-nav-todo:before {
+    content: "\e935";
+}
+.icon-edc-nav-topic:before {
+    content: "\e936";
+}
+.icon-edc-nav-univ:before {
+    content: "\e937";
+}
+.icon-edc-nav-upload:before {
+    content: "\e938";
+}
+.icon-edc-nav-volunteer:before {
+    content: "\e939";
+}
+.icon-edc-empty-book:before {
+    content: "\e93a";
+}
+.icon-edc-empty-file:before {
+    content: "\e93b";
+}
+.icon-edc-empty-keyword:before {
+    content: "\e93c";
+}
+.icon-edc-empty-subject:before {
+    content: "\e93d";
+}
+.icon-edc-empty-university:before {
+    content: "\e93e";
+}
